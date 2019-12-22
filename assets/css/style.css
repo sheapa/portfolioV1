@@ -1,0 +1,149 @@
+/* Body & Document Font Settings
+   Backrounc Image Source: "https://www.toptal.com/designers/subtlepatterns/submit/" */
+* {font-family:'Arial', 'helvetica Nue', Helvetica, sans-serif;
+}
+body {
+    margin: 0px;
+    background-color: #ffffff;
+    background-image: url("../images/hotel-wallpaper/hotel-wallpaper.png");
+    overflow: auto;
+}
+
+/* Navigation Bar 4 Layers nav>navContent>navButton>navButtonContent*/
+nav {
+    z-index: 10;
+    position: sticky;
+    background-color: #ffffff;
+    top: zero;
+    height: 80px;
+    border-bottom: 1.5px solid black
+}
+
+#navContent {
+    width: 80%;
+    max-width: 960px;
+    min-width: 400px;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+.navButton {
+    float: right;
+    padding: 5px 10px;
+    background-color: #ffffff;
+} 
+.navButtonContent {
+    color: black;
+    font-family: 'Arial', 'helvetica Nue', Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*Marker for selected page. */
+.currentPage{
+    border-top: 6px solid black;
+}
+
+
+/* Signature Block top left corner, inside nav. */
+#patrick {
+    float: left;
+    border: 1.5px solid black;
+    width: 30%;
+    height: 79px;
+    background-color: green;
+    text-align: center;
+    overflow: hidden;
+}
+
+#patrickText {
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-size: 3em;
+    color: #ffffff;
+    padding: 5px;
+}
+
+/*Main Content header tag & tag for body container. */
+h1 {
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    background-color: #ffffff;
+    border-bottom: 6px solid black;
+}
+.contentBox {
+    max-width: 960px;
+    width: 80%;
+    overflow: hidden;
+    margin: 40px auto 0px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+/* Portfolio items.
+Background Imaage Source:"https://www.cliffrailwaylynton.co.uk/about-the-railway/attachment/250x250-placeholder/" */
+.tile {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    float: left;
+    background-image: url("../images/250x250-Placeholder.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tileText{
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-size: 3em;
+    color: #ffffff;
+    text-align-last: center;
+}
+
+/*Adjustments for about me photo.*/
+img {
+    float: left; 
+    margin: 20px;
+    width: 20%;
+    height: auto;
+}
+
+/*About type adjustments. */
+p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.8;
+}
+
+/*Footer layers */
+footer {
+    background-color: green;
+    position: fixed;
+    height: 30px;
+    color: #ffffff;
+    border-top: 6px solid black;
+    display: flex;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+#foot {
+    color: #ffffff;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin: auto;
+    }
+
+/*Clear tags for adjusting float.*/
+.footClearance{
+    clear: both;
+    height: 100px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+

@@ -6,47 +6,45 @@
     <meta charset="UTF-8">
     <title>My Portfolio Page</title>
 
-<link rel="text/css" type="text/css" href="css/reset.css">
-<link rel="text/css" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
 </head>
 
 <body>
     <nav>
-        <ul>
-            <li>Patrick Shea</li>
-            <li><a href="index.asp">About</a></li>
-            <li><a href="portfolio.asp">Portfolio</a></li>
-            <li><a href="contact.asp">Contact</a></li>
-        </ul>
-    </nav>
+        <section id="navContent">
+            <div id="patrick">
+                <div id="patrickText">Patrick Shea</div>
+            </div>
+            <div>
+                <div class="navButton"><a class="navButtonContent" href="index.html">About</a></div>
+                <div class="navButton currentPage"><a class="navButtonContent" href="portfolio.html">Portfolio</a></div>
+                <div class="navButton"><a class="navButtonContent" href="contact.html">Contact</a></div>
+            </div>
+        </section>
+    </nav><br>
 
-<br>
+    <div class="contentBox">
+        <header>
+            <h1>Check Out This Cool Stuff!</h1>
+        </header>
+        <section class="innerBox">
+            <div class="tile tileText">HangMan</div>
+            <div class="tile tileText">RPG</div>
+            <div class="tile tileText">Trivia</div>
+            <div class="tile tileText">Widget</div>
+            <div class="tile tileText">R.P.S.</div>
+            <div class="tile tileText">Half-Life 3</div>
+        </section>
+    </div>
 
-    <header>
-        <h1>Check Out This Cool Stuff...</h1>
-    </header>
-
-<br>
-
-    <section>
-        <ul>
-            <li>HangMan</li>
-            <li>RPG Game</li>
-            <li>Trivia Game</li>
-            <li>Rutgers Info Widget</li>
-            <li>Rock Paper Scissors</li>
-            <li>Other Fun Game</li>
-        </ul>
-    </section>
-
-<br>
-
+    <div class="footClearance"></div>
     <footer>
-        <div>
-            <p>SHEA</p>
+        <div id="foot">
+            <p>|.| sheapa |.|</p>
         </div>
     </footer>
-
 </body>
 </html>

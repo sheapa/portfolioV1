@@ -7,45 +7,51 @@
     <meta charset="UTF-8">
     <title>My Portfolio Page</title>
 
-<link rel="text/css" type="text/css" href="css/reset.css">
-<link rel="text/css" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="assets/css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
     <nav>
-        <ul>
-            <li>Patrick Shea</li>
-            <li><a href="index.asp">About</a></li>
-            <li><a href="portfolio.asp">Portfolio</a></li>
-            <li><a href="contact.asp">Contact</a></li>
-        </ul>
-    </nav>
-
-    <header>
-        <h1>Portfolio</h1>
-    </header>
-
-<br>
-
-    <section>
+        <section id="navContent">
+            <div id="patrick">
+                <div id="patrickText">Patrick Shea</div>
+            </div>
+            <div>
+                <div class="navButton"><a class="navButtonContent" href="index.html">About</a></div>
+                <div class="navButton"><a class="navButtonContent" href="portfolio.html">Portfolio</a></div>
+                <div class="navButton currentPage"><a class="navButtonContent" href="contact.html">Contact</a></div>
+            </div>
+        </section>
+    </nav><br>
+    <div class="contentBox">
+        <header>
+            <h1>Contact:</h1>
+        </header>
         <form>
-            Name:<br>
-            <input type="text" name="name" value="Savvy Business Owner"><br>
-            Email:<br>
-            <input type="text" name="email" value="winning@dotcom"><br>
-            <textarea name="message" style="width:200px; height:600px;">  
-            I desire a cutting edge website and will pay any price! Please contact me ASAP.
-            </textarea><br><br>
+            <br>
+            <p>Name</p>
+            <br>
+            <input class="trueCenter" type="text" name="name" style="width:900px; height: 1em;"><br>
+            <br>
+            <p>Email</p>
+            <br>
+            <input class="trueCenter" type="text" name="email" style="width:900px; height:1em;"><br>
+            <br>
+            <p>Message</p>
+            <br>
+            <textarea class="trueCenter" type=" text" name="message" style="width:900px; height:300px;">  </textarea>
+            <br>
             <input type="submit" value="Submit">
         </form>
-    </section>
+    </div>
 
-<br>
-
+    <div class="footClearance"></div>
     <footer>
-        <div>
-            <p>SHEA</p>
+        <div id="foot">
+            <p>|.| sheapa |.|</p>
         </div>
     </footer>
 
